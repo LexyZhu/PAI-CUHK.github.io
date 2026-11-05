@@ -122,6 +122,20 @@ sections:
             color: #475569;
             margin-bottom: 1.5rem;
           }
+          .med-hero-description {
+            max-width: 1080px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+            text-wrap: pretty;
+          }
+          .med-hero-description-cn {
+            max-width: 1080px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+            text-wrap: pretty;
+          }
           .med-hero-img {
             flex: 1;
             display: flex;
@@ -135,6 +149,73 @@ sections:
             border-radius: 16px;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
             object-fit: cover;
+          }
+
+          /* Project photo strip */
+          .med-project-gallery {
+            overflow: hidden;
+            margin: 0 -2rem 2.5rem;
+            padding: 0.5rem 0 1rem;
+            -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+            mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+          }
+          .med-project-track {
+            display: flex;
+            width: max-content;
+            gap: 1.25rem;
+            animation: project-gallery-scroll 72s linear infinite;
+          }
+          .med-project-gallery:hover .med-project-track,
+          .med-project-gallery:focus-within .med-project-track {
+            animation-play-state: paused;
+          }
+          .med-project-card {
+            flex: 0 0 clamp(260px, 34vw, 440px);
+            overflow: hidden;
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            box-shadow: 0 8px 22px rgba(15, 23, 42, 0.09);
+          }
+          .med-project-card img {
+            display: block;
+            width: 100%;
+            height: clamp(190px, 24vw, 300px);
+            object-fit: cover;
+          }
+          .med-project-card figcaption {
+            min-height: 3.5rem;
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 1rem;
+            color: #334155;
+            font-size: 0.95rem;
+            font-weight: 600;
+            line-height: 1.35;
+            text-align: left;
+          }
+          .med-hero-text p.med-project-note {
+            max-width: 900px;
+            margin: -1rem auto 2rem;
+            padding: 0.65rem 0.85rem;
+            color: #6d28d9;
+            background: #faf5ff;
+            border: 1px solid #ddd6fe;
+            border-radius: 6px;
+            font-size: 0.65rem;
+            line-height: 1.65;
+            text-align: center;
+          }
+          @keyframes project-gallery-scroll {
+            to { transform: translateX(calc(-50% - 0.625rem)); }
+          }
+          @media (max-width: 600px) {
+            .med-project-gallery { margin-left: -1rem; margin-right: -1rem; }
+            .med-project-card { flex-basis: 78vw; }
+            .med-project-card img { height: 58vw; }
+          }
+          @media (prefers-reduced-motion: reduce) {
+            .med-project-track { animation: none; }
           }
 
           /* Triple Barrier Cards */
@@ -380,8 +461,22 @@ sections:
         <img src="image3.jpg" alt="SpectraHomeHelper AI Healthcare Vision Dashboard">
         </div>
 
-        <p>SpectraHomeHelper is an integrated digital health solution combining AI home monitoring that prioritizes data privacy with a bilingual patient navigator driven by large language models. It provides continuous behavioral assessment and structured resource guidance for autistic children, shifting care from episodic visits to continuous support focused entirely on the family.</p>
-        <p style="color: #64748b; font-size: 1rem;">本項目致力於構建一個結合AI家庭行為監測與雙語大語言模型患者導引系統的創新數字醫療平台。它能夠為自閉症兒童提供連續的臨床級評估與結構化資源指導，以期待於實現高效、協調且以家庭為中心的普適化全面支持服務。</p>
+        <div class="med-project-gallery" aria-label="SpectraHomeHelper project photos">
+          <div class="med-project-track">
+            <figure class="med-project-card"><img src="home-data-collection.jpg" alt="A parent and child playing with blocks in a home-like setting"><figcaption>A home-like data collection environment</figcaption></figure>
+            <figure class="med-project-card"><img src="protocol-technical-backbone.jpg" alt="Researchers setting up and reviewing a parent-child interaction session"><figcaption>Protocol and technical backbone</figcaption></figure>
+            <figure class="med-project-card"><img src="parent-child-detection.jpg" alt="Computer vision detections identifying parent and child during play"><figcaption>Parent-child interaction detection</figcaption></figure>
+            <figure class="med-project-card"><img src="privacy-preserving-modeling.jpg" alt="Pose keypoints supporting privacy-preserving behavioral analysis"><figcaption>Privacy-preserving modeling and analysis</figcaption></figure>
+            <figure class="med-project-card" aria-hidden="true"><img src="home-data-collection.jpg" alt=""><figcaption>A home-like data collection environment</figcaption></figure>
+            <figure class="med-project-card" aria-hidden="true"><img src="protocol-technical-backbone.jpg" alt=""><figcaption>Protocol and technical backbone</figcaption></figure>
+            <figure class="med-project-card" aria-hidden="true"><img src="parent-child-detection.jpg" alt=""><figcaption>Parent-child interaction detection</figcaption></figure>
+            <figure class="med-project-card" aria-hidden="true"><img src="privacy-preserving-modeling.jpg" alt=""><figcaption>Privacy-preserving modeling and analysis</figcaption></figure>
+          </div>
+        </div>
+        <p class="med-project-note">Images show staff-led testing and algorithm demonstrations; no actual patient images are presented.<br>图中内容均为工作人员参与的测试场景及算法演示，未展示患者真实影像。</p>
+
+        <p class="med-hero-description">SpectraHomeHelper is an integrated digital health solution combining AI home monitoring that prioritizes data privacy with a bilingual patient navigator driven by large language models. It provides continuous behavioral assessment and structured resource guidance for autistic children, shifting care from episodic visits to continuous support focused entirely on the family.</p>
+        <p class="med-hero-description-cn" style="color: #64748b; font-size: 1rem;">本項目致力於構建一個結合AI家庭行為監測與雙語大語言模型患者導引系統的創新數字醫療平台。它能夠為自閉症兒童提供連續的臨床級評估與結構化資源指導，以期待於實現高效、協調且以家庭為中心的普適化全面支持服務。</p>
         <div class="btn-group">
         <a href="#solution" class="med-btn med-btn-primary" style="padding: 16px 80px; font-size: 1.125rem; text-align: center;">Explore the Platform</a>
         </div>
