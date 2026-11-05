@@ -14,6 +14,10 @@ main:
     url: /spectrahomehelper/
     weight: 15
 
+  - name: BHI 2026 Workshop
+    url: /bhi2026workshop/
+    weight: 18
+
   - name: News
     url: /post/
     weight: 20
