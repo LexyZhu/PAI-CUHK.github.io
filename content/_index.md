@@ -90,7 +90,7 @@ sections:
 
         <div class="pai-about-layout">
           <div class="pai-about-logo">
-            <img src="media/pai-logo.png" alt="CUHK PAI Lab logo">
+            <img src="media/icon.png" alt="CUHK PAI Lab logo">
           </div>
           <div class="pai-about-text">
             <p>The CUHK Psychiatry and AI (PAI) Lab is a cross-disciplinary research hub for medical AI and digital health research in psychiatry.</p>
