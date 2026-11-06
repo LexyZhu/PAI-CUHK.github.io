@@ -34,7 +34,7 @@ sections:
         <style>
           #about .pai-about-title {
             color: #000000;
-            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-size: 1.8rem;
             font-weight: 700;
             margin-bottom: 45px;
             text-align: left;
