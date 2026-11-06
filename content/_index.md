@@ -1,17 +1,16 @@
 ---
 title: Welcoming
 date: 2022-10-24
-
 type: landing
 
 sections:
   - block: hero
     content:
-      - title: |
+      title: |
         Welcome to the CUHK Psychiatry & AI (PAI) Research Group
-      - text: |
+      text: |
         Connecting Minds, Shaping Futures—Pioneering Digital Mental Wellness through Innovative Algorithms.
-      - cta:
+      cta:
         label: Explore Research News
         url: post/
         icon: file-alt
@@ -30,8 +29,8 @@ sections:
       spacing:
         padding: ['140px', '20px', '140px', '20px']
       css_style: 'text-align: center;'
-    
-    - block: markdown
+
+  - block: markdown
     id: about
     content:
       title: About Us
@@ -49,4 +48,4 @@ sections:
         text_color_light: false
       spacing:
         padding: ['80px', '20px', '80px', '20px']
-    ---
+---
