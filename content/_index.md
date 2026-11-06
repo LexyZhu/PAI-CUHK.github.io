@@ -90,10 +90,10 @@ sections:
 
         <div class="pai-about-layout">
           <div class="pai-about-logo">
-            <img src="media/icon.png" alt="CUHK PAI Lab logo">
+            <img src="media/icon.png" alt="PAI Lab logo">
           </div>
           <div class="pai-about-text">
-            <p>The CUHK Psychiatry and AI (PAI) Lab is a cross-disciplinary research hub for medical AI and digital health research in psychiatry.</p>
+            <p>The Psychiatry and AI (PAI) Lab is a cross-disciplinary research hub for medical AI and digital health research in psychiatry.</p>
             <p>Founded by Dr. Leo Lizhou Fan in 2025, the lab is based in the Department of Psychiatry, Faculty of Medicine, CUHK. We welcome motivated researchers in AI and digital health to join our research community.</p>
             <p>To learn more about our members, visit our <a href="people/">people page</a>. For collaboration and joining opportunities, please <a href="contact/">contact us</a>.</p>
           </div>
