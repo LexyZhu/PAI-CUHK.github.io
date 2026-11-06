@@ -21,7 +21,7 @@ sections:
         color: '#666'
         text_color_light: true
         image:
-          filename: tour/lab4.png
+          filename: lab4.png
           size: cover
           position: right
           parallax: false
