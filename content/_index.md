@@ -7,14 +7,9 @@ sections:
   - block: hero
     content:
       title: |
-        Welcome to the CUHK Psychiatry & AI (PAI) Research Group
+        Welcome to the PAI Lab at CUHK
       text: |
         Connecting Minds, Shaping Futures—Pioneering Digital Mental Wellness through Innovative Algorithms.
-      cta:
-        label: Explore Research News
-        url: post/
-        icon: file-alt
-        icon_pack: fas
     design:
       background:
         color: '#666'
