@@ -31,7 +31,7 @@ sections:
       title: About Us
       subtitle: ''
       text: |
-        The CUHK Psychiatry and AI (PAI) Research Group is a cross-disciplinary research hub for Medical AI and Digital Health research in Psychiatry.
+        The CUHK Psychiatry and AI (PAI) Lab is a cross-disciplinary research hub for Medical AI and Digital Health research in Psychiatry.
 
         Founded by Dr. Leo Lizhou Fan in 2025, this group at the Department of Psychiatry, Faculty of Medicine, CUHK now welcomes motivated talents in AI and digital
     health to join our synergy of research.
