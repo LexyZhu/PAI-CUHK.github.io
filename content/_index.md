@@ -31,11 +31,10 @@ sections:
       title: About Us
       subtitle: ''
       text: |
-        Add your introduction here.
+        The CUHK Psychiatry and AI (PAI) Research Group is a cross-disciplinary research hub for Medical AI and Digital Health research in Psychiatry.
 
-        You can describe your research group, its mission, research interests, and goals.
-
-        Add additional paragraphs as needed.
+        Founded by Dr. Leo Lizhou Fan in 2025, this group at the Department of Psychiatry, Faculty of Medicine, CUHK now welcomes motivated talents in AI and digital
+    health to join our synergy of research.
     design:
       columns: '1'
       background:
