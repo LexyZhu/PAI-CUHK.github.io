@@ -104,7 +104,7 @@ sections:
 
         <div class="pai-about-layout">
           <div class="pai-about-logo">
-            <img src="static/icon.png" alt="PAI Lab logo">
+            <img src="icon.png" alt="PAI Lab logo">
           </div>
           <div class="pai-about-text">
             <p>The Psychiatry and AI (PAI) Lab is a cross-disciplinary research hub for medical AI and digital health research in psychiatry.</p>
