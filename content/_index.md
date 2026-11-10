@@ -11,11 +11,15 @@ sections:
     
       text: |
         <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+
           #section-hero .hero-lead {
             max-width: 56ch;
             margin-inline: auto;
+            font-family: 'Montserrat', Arial, sans-serif;
             font-size: clamp(1rem, 1.8vw, 1.15rem);
-            font-weight: 400;
+            font-weight: 800;
+            font-style: italic;
             line-height: 1.55;
           }
         </style>
