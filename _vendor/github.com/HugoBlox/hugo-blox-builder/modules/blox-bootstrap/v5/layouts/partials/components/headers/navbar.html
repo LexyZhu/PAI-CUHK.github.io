@@ -8,7 +8,7 @@
 {{/* Get site logo. */}}
 {{ $show_logo := site.Params.header.navbar.show_logo | default true }}
 {{ $has_logo := fileExists "assets/media/icon.png" | or (fileExists "assets/media/icon.svg") }}
-{{ $logo := "" }}
+{{ $logo := resources.Get "media/icon.png" }}
 {{ if $has_logo }}
   {{ $logo = (partial "blox-core/functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
 {{ end }}
@@ -20,7 +20,7 @@
       {{if $show_logo}}
       <div class="d-none d-lg-inline-flex">
         <a class="navbar-brand d-inline-flex align-items-center" href="{{ site.Home.RelPermalink }}">
-          {{ if $has_logo }}
+          {{ if $logo }}
             <img src="{{ $logo.RelPermalink }}" alt="" class="mr-2"
                  style="height: 32px; width: auto;">
           {{ end }}
