@@ -7,11 +7,7 @@
 
 {{/* Get site logo. */}}
 {{ $show_logo := site.Params.header.navbar.show_logo | default true }}
-{{ $has_logo := fileExists "assets/media/icon.png" | or (fileExists "assets/media/icon.svg") }}
 {{ $logo := resources.Get "media/icon.png" }}
-{{ if $has_logo }}
-  {{ $logo = (partial "blox-core/functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
-{{ end }}
 
 <header>
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
@@ -36,16 +32,17 @@
       </button>
       {{ end }}
 
-      {{if $show_logo}}
+      {{ if $show_logo }}
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="{{ site.Home.RelPermalink }}">
-        {{- if $has_logo -}}
-          <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-          {{with site.Params.header.image.width}}width="{{.}}"{{end}}
-          {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
-        {{- else -}}
-          {{- site.Title -}}
-        {{- end -}}
+        <a class="navbar-brand d-inline-flex align-items-center" href="{{ site.Home.RelPermalink }}">
+          {{ if $logo }}
+            <img src="{{ $logo.RelPermalink }}" alt="" class="mr-2"
+                 style="height: 32px; width: auto;">
+          {{ end }}
+          <span>PAI @ CUHK</span>
+        </a>
+      </div>
+      {{ end }}
         </a>
       </div>
 
