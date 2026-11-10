@@ -7,7 +7,7 @@
 
 {{/* Get site logo. */}}
 {{ $show_logo := site.Params.header.navbar.show_logo | default true }}
-{{ $has_logo := fileExists "assets/media/logo.png" | or (fileExists "assets/media/logo.svg") }}
+{{ $has_logo := fileExists "assets/media/icon.png" | or (fileExists "assets/media/icon.svg") }}
 {{ $logo := "" }}
 {{ if $has_logo }}
   {{ $logo = (partial "blox-core/functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
@@ -48,7 +48,6 @@
         {{- end -}}
         </a>
       </div>
-      {{end}}
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       {{ $align_menu := site.Params.header.navbar.align | default "l" }}
