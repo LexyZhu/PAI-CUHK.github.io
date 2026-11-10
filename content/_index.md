@@ -95,7 +95,7 @@ sections:
             }
 
             #about .pai-about-logo {
-              width: 160px;
+              width: 220px;
             }
           }
         </style>
