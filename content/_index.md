@@ -8,7 +8,17 @@ sections:
     content:
       title: |
         Welcome to the PAI Lab at CUHK
+    
       text: |
+        <style>
+          #section-hero .hero-lead {
+            max-width: 56ch;
+            margin-inline: auto;
+            font-size: clamp(1rem, 1.8vw, 1.15rem);
+            font-weight: 400;
+            line-height: 1.55;
+          }
+        </style>
         Connecting Minds, Shaping Futures—Pioneering Digital Mental Wellness through Innovative Algorithms.
     design:
       background:
