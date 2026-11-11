@@ -7,7 +7,7 @@ sections:
   - block: hero
     content:
       title: |
-        Welcome to the PAI Lab at CUHK
+        Welcome to the Fanmily Lab at CUHK
     
       text: |
         <style>
