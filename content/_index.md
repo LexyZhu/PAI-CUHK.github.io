@@ -7,7 +7,7 @@ sections:
   - block: hero
     content:
       title: |
-        Welcome to the Fanmily Lab at CUHK
+        Welcome to the PAI Lab at CUHK
     
       text: |
         <style>
@@ -23,7 +23,7 @@ sections:
             line-height: 1.55;
           }
         </style>
-        More snacks, more hikes, fewer lab meltdowns.
+        Connecting Minds, Shaping Futures—Pioneering Digital Mental Wellness through Innovative Algorithms.
         
     design:
       background:
