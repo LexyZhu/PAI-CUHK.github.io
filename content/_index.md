@@ -23,7 +23,8 @@ sections:
             line-height: 1.55;
           }
         </style>
-        Connecting Minds, Shaping Futures—Pioneering Digital Mental Wellness through Innovative Algorithms.
+        More snacks, more hikes, fewer lab meltdowns.
+        
     design:
       background:
         color: '#666'
