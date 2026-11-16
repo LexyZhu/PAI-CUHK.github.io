@@ -135,48 +135,59 @@ sections:
       text: |
         <style>
           #pai-news .pai-news-title {
-            color: #000000;
-            font-size: 1.6rem;
+            color: #000;
+            font-size: 1.8rem;
             font-weight: 700;
-            margin-bottom: 45px;
+            margin-bottom: 20px;
             text-align: left;
           }
+
+          #pai-news .pai-news-item {
+            display: grid;
+            grid-template-columns: clamp(56px, 12vw, 120px) minmax(0, 1fr);
+            align-items: center;
+            gap: 16px;
+          }
+
           #pai-news .pai-news-item + .pai-news-item {
             margin-top: 12px;
           }
 
-          #pai-news .pai-news-item h3 {
-            font-size: 0.9rem;
-            margin: 0 0 6px;
-          }
-
-          #pai-news .pai-news-item time {
+          #pai-news .pai-news-item img {
             display: block;
-            color: #666;
-            font-size: 0.9rem;
-            margin-bottom: 6px;
+            width: 100%;
+            height: clamp(48px, 9vw, 80px);
+            object-fit: contain;
           }
 
           #pai-news .pai-news-item p {
             margin: 0;
+          }
+
+          #pai-news .pai-news-item time {
+            color: #666;
+            font-size: 0.9rem;
           }
         </style>
 
         <h2 class="pai-news-title">PAI News</h2>
 
         <article class="pai-news-item">
+          <img src="post/260416/award2.png" alt="Award photo from the Chest Pain Center Conference" loading="lazy">
           <p><time datetime="2026-04-16">April 16, 2026</time>
             Congratulations to our research teams on winning First Prize for Excellent Paper for two projects at the 15th Chest Pain Center Conference!
           </p>
         </article>
 
         <article class="pai-news-item">
+          <img src="post/251101/featured.png" alt="Award photo 251101" loading="lazy">
           <p><time datetime="2025-11-01">November 1, 2025</time>
             Congratulations to Ms. Huizi Yu on receiving the Outstanding Award for an oral presentation in science and engineering at the 2025 Greater Bay Area Graduate Research Forum!
           </p>
         </article>
 
         <article class="pai-news-item">
+          <img src="post/25-sdu/2025sdu-wordflow.png" alt="Award photo 20250101" loading="lazy">
           <p><time datetime="2025-01-01">January 1, 2025</time>
             Congratulations to our team on winning the Best Paper Award for “Enhancing Medical Diagnostic Reasoning with Chain-of-Thought in Large Language Models”!
           </p>
