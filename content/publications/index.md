@@ -65,7 +65,7 @@ sections:
               </p>
               <p><em>npj Digital Medicine</em>, 2026.</p>
               <p class="pai-paper-links">
-                <a href="PAPER_URL">Paper</a> | <a href="CODE_URL">Code</a>
+                <a href="https://doi.org/10.1038/s41746-026-03001-w">Paper</a> | <a href="https://github.com/PAI-CUHK/RBDMDD">Code</a>
               </p>
             </li>
           </ol>
