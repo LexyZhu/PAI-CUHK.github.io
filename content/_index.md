@@ -62,7 +62,7 @@ sections:
           }
 
           #about .pai-about-logo {
-            width: 180px;
+            width: 220px;
             flex-shrink: 0;
           }
 
@@ -93,10 +93,6 @@ sections:
             #about .pai-about-layout {
               flex-direction: column;
               gap: 25px;
-            }
-
-            #about .pai-about-logo {
-              width: 1000px;
             }
           }
         </style>
