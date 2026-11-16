@@ -173,7 +173,7 @@ sections:
         <h2 class="pai-news-title">PAI News</h2>
 
         <article class="pai-news-item">
-          <img src="post/260416/award2.png" alt="Award photo from the Chest Pain Center Conference" loading="lazy">
+          <img src="post/260416/featured.png" alt="Award photo from the Chest Pain Center Conference" loading="lazy">
           <p><time datetime="2026-04-16">April 16, 2026</time>
             Congratulations to our research teams on winning First Prize for Excellent Paper for two projects at the 15th Chest Pain Center Conference!
           </p>
