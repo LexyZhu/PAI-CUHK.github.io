@@ -117,32 +117,31 @@ sections:
       spacing:
         padding: ['80px', '20px', '80px', '20px']
 
-    - block: markdown
-      id: pai-news
-      content:
-        title: ''
-        subtitle: ''
-        text: |
-          <style>
-            #pai-news .pai-news-title {
-              color: #000000;
-              font-size: 1.8rem;
-              font-weight: 700;
-              margin-bottom: 45px;
-              text-align: left;
-            }
-          </style>
-  
-          <h2 class="pai-news-title">PAI News</h2>
-  
-          <!-- Add your lab updates here. -->
-      design:
-        columns: '1'
-        background:
-          color: '#ffffff'
-          text_color_light: false
-        spacing:
-          padding: ['80px', '20px', '80px', '20px']
+  - block: markdown
+    id: pai-news
+    content:
+      title: ''
+      subtitle: ''
+      text: |
+        <style>
+          #pai-news .pai-news-title {
+            color: #000000;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 45px;
+            text-align: left;
+          }
+        </style>
 
-    
+        <h2 class="pai-news-title">PAI News</h2>
+
+        <!-- Add your lab updates here. -->
+    design:
+      columns: '1'
+      background:
+        color: '#ffffff'
+        text_color_light: false
+      spacing:
+        padding: ['80px', '20px', '80px', '20px']
+   
 ---
