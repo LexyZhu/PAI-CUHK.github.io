@@ -12,50 +12,52 @@ sections:
           #pai-publications .pai-pubs {
             max-width: 1120px;
             margin-inline: auto;
+            font-size: 1.1rem;
+            color: #000;
           }
 
           #pai-publications .pai-pubs h1 {
-            font-size: clamp(2rem, 4vw, 2.6rem);
-            margin: 0 0 24px;
+            color: #000;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0 0 20px;
           }
 
           #pai-publications .pai-pubs h2 {
             font-size: 1.25rem;
-            margin: 0 0 14px;
+            font-weight: 700;
+            margin: 0 0 12px;
           }
 
           #pai-publications .pai-pubs ol {
-            margin: 0;
+            margin: 0 0 24px;
             padding-inline-start: 1.5rem;
           }
 
           #pai-publications .pai-pubs li {
+            margin-bottom: 16px;
             padding-inline-start: 0.25rem;
-            margin-bottom: 20px;
-            font-size: 1rem;
-            line-height: 1.4;
           }
 
           #pai-publications .pai-pubs p {
             margin: 2px 0 0;
             font-size: inherit;
-            line-height: inherit;
           }
 
           #pai-publications .pai-pubs a.pai-paper-title {
             color: #000;
+            font-size: inherit;
             font-weight: 700;
             text-decoration: none;
           }
 
-          #pai-publications .pai-paper-authors {
-            color: inherit;
-            font-weight: 400;
+          #pai-publications .pai-pubs a.pai-paper-title:hover,
+          #pai-publications .pai-pubs a.pai-paper-title:focus-visible {
+            text-decoration: underline;
           }
 
-          #pai-publications .pai-pubs a:hover,
-          #pai-publications .pai-pubs a:focus-visible {
-            text-decoration: underline;
+          #pai-publications .pai-paper-authors {
+            font-weight: 400;
           }
         </style>
 
@@ -65,7 +67,7 @@ sections:
           <h2>AI for Mental Health</h2>
           <ol>
             <li>
-              <a class="pai-paper-title" href="PAPER_URL">Multimodal AI for predicting comorbid REM sleep behavior disorder in major depressive disorder</a>
+              <strong class="pai-paper-title">Multimodal AI for predicting comorbid REM sleep behavior disorder in major depressive disorder</strong>
               <p class="pai-paper-authors">
                 Lizhou Fan, Xiang Li, Xinze Wang, Jianzhang Ni, Zhixuan He,
                 Yuhua Yang, Huizi Yu, Zhiying Liang, Shi Tang, Siyi Gong,
@@ -74,7 +76,7 @@ sections:
                 Bei Huang and Yun Kwok Wing
               </p>
               <p><em>npj Digital Medicine</em>, 2026.</p>
-              <p><a href="CODE_URL">Code</a></p>
+              <p><a href="https://doi.org/10.1038/s41746-026-03001-w">Paper</a> | <a href="https://github.com/PAI-CUHK/RBDMDD">Code</a></p>
             </li>
           </ol>
         </div>
