@@ -62,7 +62,7 @@ sections:
           }
 
           #about .pai-about-logo {
-            width: 220px;
+            width: 300px;
             flex-shrink: 0;
           }
 
