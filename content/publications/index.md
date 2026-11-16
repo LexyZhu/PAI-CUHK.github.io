@@ -31,7 +31,7 @@ sections:
           #pai-publications .pai-pubs li {
             margin-bottom: 16px;
             padding-inline-start: 0.25rem;
-            font-size: 0.7rem;
+            font-size: 0.8rem;
           }
 
           #pai-publications .pai-pubs p {
