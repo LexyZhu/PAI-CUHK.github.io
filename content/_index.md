@@ -174,7 +174,7 @@ sections:
 
         <article class="pai-news-item">
           <p><time datetime="2025-11-01">November 1, 2025</time>
-            Congratulations to Yu Huizi on receiving the Outstanding Award for an oral presentation in science and engineering at the 2025 Greater Bay Area Graduate Research Forum!
+            Congratulations to Ms. Huizi Yu on receiving the Outstanding Award for an oral presentation in science and engineering at the 2025 Greater Bay Area Graduate Research Forum!
           </p>
         </article>
 
