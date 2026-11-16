@@ -57,7 +57,7 @@ sections:
 
           #about .pai-about-layout {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             gap: 50px;
           }
 
@@ -83,6 +83,9 @@ sections:
 
           #about .pai-about-text p {
             margin-bottom: 24px;
+          }
+          #about .pai-about-text p:last-child {
+            margin-bottom: 0;
           }
 
           #about .pai-about-text a {
