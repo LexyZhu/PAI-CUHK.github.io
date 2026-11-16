@@ -142,22 +142,8 @@ sections:
             text-align: left;
           }
 
-          #pai-news .pai-news-item {
-            display: grid;
-            grid-template-columns: clamp(56px, 12vw, 120px) minmax(0, 1fr);
-            align-items: center;
-            gap: 16px;
-          }
-
           #pai-news .pai-news-item + .pai-news-item {
             margin-top: 12px;
-          }
-
-          #pai-news .pai-news-item img {
-            display: block;
-            width: 100%;
-            height: clamp(48px, 9vw, 80px);
-            object-fit: contain;
           }
 
           #pai-news .pai-news-item p {
@@ -169,6 +155,7 @@ sections:
             font-size: 0.9rem;
             font-weight: 700;
           }
+    
         </style>
 
         <h2 class="pai-news-title">PAI News</h2>
