@@ -51,7 +51,7 @@ sections:
             color: #000000;
             font-size: 1.6rem;
             font-weight: 700;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
             text-align: left;
           }
 
