@@ -162,19 +162,19 @@ sections:
         <h2 class="pai-news-title">PAI News</h2>
 
         <article class="pai-news-item">
-          <p><time datetime="2026-04-16">April 16, 2026</time>
+          <p><time datetime="2026-04-16">April 16, 2026.</time>
             Congratulations to our research teams on winning First Prize for Excellent Paper for two projects at the 15th Chest Pain Center Conference!
           </p>
         </article>
 
         <article class="pai-news-item">
-          <p><time datetime="2025-11-01">November 1, 2025</time>
+          <p><time datetime="2025-11-01">November 1, 2025.</time>
             Congratulations to Ms. Huizi Yu on receiving the Outstanding Award for an oral presentation in science and engineering at the 2025 Greater Bay Area Graduate Research Forum!
           </p>
         </article>
 
         <article class="pai-news-item">
-          <p><time datetime="2025-01-01">January 1, 2025</time>
+          <p><time datetime="2025-01-01">January 1, 2025.</time>
             Congratulations to our team on winning the Best Paper Award for “Enhancing Medical Diagnostic Reasoning with Chain-of-Thought in Large Language Models”!
           </p>
         </article>
