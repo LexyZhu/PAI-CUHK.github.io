@@ -51,7 +51,7 @@ sections:
             color: #000000;
             font-size: 1.6rem;
             font-weight: 700;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
             text-align: left;
           }
 
@@ -167,21 +167,15 @@ sections:
         <h2 class="pai-news-title">PAI News</h2>
 
         <article class="pai-news-item">
-          <h3>Two Projects Win First Prize for Excellent Paper</h3>
-          <time datetime="2026-04-16">April 16, 2026</time>
-          <p>Two of our research projects received the First Prize for Excellent Paper at the 15th Chest Pain Center Conference.</p>
+          <p><time datetime="2026-04-16">April 16, 2026</time> · Congratulations to our research teams on winning First Prize for Excellent Paper for two projects at the 15th Chest Pain Center     Conference!</p>
         </article>
 
         <article class="pai-news-item">
-          <h3>Yu Huizi Receives Outstanding Award at GBA Graduate Research Forum</h3>
-          <time datetime="2025-11-01">November 1, 2025</time>
-          <p>Lab member Yu Huizi received the Outstanding Award for an academic oral presentation in science and engineering at the 2025 Greater Bay Area Graduate Research Forum.</p>
+          <p><time datetime="2025-11-01">November 1, 2025</time> · Congratulations to Yu Huizi on receiving the Outstanding Award for an oral presentation in science and engineering at the 2025 Greater Bay Area Graduate Research Forum!</p>
         </article>
 
         <article class="pai-news-item">
-          <h3>Lab Team Wins Best Paper Award for Research on Medical Diagnostic Reasoning</h3>
-          <time datetime="2025-01-01">January 1, 2025</time>
-          <p>Our paper, “Enhancing Medical Diagnostic Reasoning with Chain-of-Thought in Large Language Models,” received a Best Paper Award.</p>
+          <p><time datetime="2025-01-01">January 1, 2025</time> · Congratulations to our team on winning the Best Paper Award for “Enhancing Medical Diagnostic Reasoning with Chain-of-Thought in Large Language Models”!</p>
         </article>
 
         <!-- Add your lab updates here. -->
