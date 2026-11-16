@@ -16,13 +16,13 @@ main:
     url: /bhi2026workshop/
     weight: 18
 
-  - name: Events
-    url: /event/
-    weight: 40
-
   - name: Publications
     url: /publications/
     weight: 20
+
+  - name: Events
+    url: /event/
+    weight: 40
   
   - name: Contact
     url: /contact/
