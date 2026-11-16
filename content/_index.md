@@ -49,9 +49,9 @@ sections:
         <style>
           #about .pai-about-title {
             color: #000000;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-weight: 700;
-            margin-bottom: 4px;
+            margin-bottom: 0px;
             text-align: left;
           }
 
@@ -136,7 +136,7 @@ sections:
         <style>
           #pai-news .pai-news-title {
             color: #000;
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             font-weight: 700;
             margin-bottom: 20px;
             text-align: left;
