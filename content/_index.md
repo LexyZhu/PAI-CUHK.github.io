@@ -76,7 +76,7 @@ sections:
             flex: 1;
             min-width: 0;
             color: #333;
-            font-size: 1.0rem;
+            font-size: 0.9rem;
             line-height: 1.7;
             text-align: left;
           }
@@ -148,6 +148,7 @@ sections:
 
           #pai-news .pai-news-item p {
             margin: 0;
+            font-size: 0.9rem;
           }
 
           #pai-news .pai-news-item time {
