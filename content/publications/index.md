@@ -18,15 +18,9 @@ sections:
 
           #pai-publications .pai-pubs h1 {
             color: #000;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: 700;
             margin: 0 0 20px;
-          }
-
-          #pai-publications .pai-pubs h2 {
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin: 0 0 12px;
           }
 
           #pai-publications .pai-pubs ol {
@@ -41,12 +35,12 @@ sections:
 
           #pai-publications .pai-pubs p {
             margin: 2px 0 0;
-            font-size: inherit;
+            font-size: 0.9rem;
           }
 
           #pai-publications .pai-pubs a.pai-paper-title {
             color: #000;
-            font-size: inherit;
+            font-size: 0.9rem;
             font-weight: 700;
             text-decoration: none;
           }
@@ -63,8 +57,7 @@ sections:
 
         <div class="pai-pubs">
           <h1>Publications</h1>
-
-          <h2>AI for Mental Health</h2>
+    
           <ol>
             <li>
               <strong class="pai-paper-title">Multimodal AI for predicting comorbid REM sleep behavior disorder in major depressive disorder</strong>
