@@ -163,7 +163,7 @@ sections:
     
           #pai-news .pai-news-link {
             display: block;
-            font-size: 1.1rem;
+            font-size: 0.9rem;
             color: inherit;
             text-decoration: none;
           }
