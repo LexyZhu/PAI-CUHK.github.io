@@ -142,13 +142,11 @@ sections:
             text-align: left;
           }
           #pai-news .pai-news-item + .pai-news-item {
-            border-top: 1px solid #e5e5e5;
-            margin-top: 20px;
-            padding-top: 20px;
+            margin-top: 12px;
           }
 
           #pai-news .pai-news-item h3 {
-            font-size: 1.15rem;
+            font-size: 0.9rem;
             margin: 0 0 6px;
           }
 
