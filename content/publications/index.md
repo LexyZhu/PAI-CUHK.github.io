@@ -36,18 +36,17 @@ sections:
 
           #pai-publications .pai-pubs p {
             margin: 2px 0 0;
-            font-size: 0.9rem;
+            font-size: inherit;
           }
 
           #pai-publications .pai-pubs .pai-paper-title {
             color: #000;
-            font-size: 0.9rem;
+            font-size: inherit;
             font-weight: 700;
           }
 
           #pai-publications .pai-pubs .pai-paper-authors {
             font-weight: 400;
-            font-size: 0.9rem;
           }
         </style>
 
