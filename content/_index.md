@@ -116,4 +116,21 @@ sections:
         text_color_light: false
       spacing:
         padding: ['80px', '20px', '80px', '20px']
+
+  - block: markdown
+    id: pai-news
+    content:
+      title: 'PAI News'
+      subtitle: ''
+      text: |
+        <!-- Add your lab updates here. -->
+    design:
+      columns: '1'
+      background:
+        color: '#ffffff'
+        text_color_light: false
+      spacing:
+        padding: ['80px', '20px', '80px', '20px']
+
+    
 ---
