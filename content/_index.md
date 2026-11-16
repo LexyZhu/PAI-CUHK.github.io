@@ -187,7 +187,7 @@ sections:
         </article>
 
         <article class="pai-news-item">
-          <img src="post/25-sdu/2025sdu-wordflow.png" alt="Award photo 20250101" loading="lazy">
+          <img src="post/25-sdu/featured.png" alt="Award photo 20250101" loading="lazy">
           <p><time datetime="2025-01-01">January 1, 2025</time>
             Congratulations to our team on winning the Best Paper Award for “Enhancing Medical Diagnostic Reasoning with Chain-of-Thought in Large Language Models”!
           </p>
