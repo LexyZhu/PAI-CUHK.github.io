@@ -46,6 +46,7 @@ sections:
 
           #pai-publications .pai-pubs .pai-paper-authors {
             font-weight: 400;
+            font-size: 0.9rem;
           }
         </style>
 
