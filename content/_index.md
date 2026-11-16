@@ -161,6 +161,18 @@ sections:
             font-weight: 700;
           }
     
+          #pai-news .pai-news-link {
+            display: block;
+            font-size: 1.1rem;
+            color: inherit;
+            text-decoration: none;
+          }
+          
+          #pai-news .pai-news-link:hover,
+          #pai-news .pai-news-link:focus-visible {
+            color: inherit;
+            text-decoration: underline;
+          }
         </style>
 
         <h2 class="pai-news-title">PAI News</h2>
