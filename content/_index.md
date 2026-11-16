@@ -76,8 +76,8 @@ sections:
             flex: 1;
             min-width: 0;
             color: #333;
-            font-size: 1.1rem;
-            line-height: 1.9;
+            font-size: 0.8rem;
+            line-height: 1.7;
             text-align: left;
           }
 
