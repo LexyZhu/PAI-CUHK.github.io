@@ -107,7 +107,7 @@ sections:
             <img src="icon.png" alt="PAI Lab logo">
           </div>
           <div class="pai-about-text">
-            <p>The Psychiatry and AI (PAI) Lab is a cross-disciplinary research hub for medical AI and digital health research in psychiatry which regroup the faculty members, postdocs, and students working on AI, foundation model, embodied AI</p>
+            <p>The Psychiatry and AI (PAI) Lab at The Chinese University of Hong Kong (CUHK) is an interdisciplinary research hub focused on medical AI and digital health in psychiatry. We bring together faculty members, postdoctoral researchers, and students to explore how AI technologies, including foundation models and embodied AI, can advance psychiatric research and care.</p>
           </div>
         </div>
     design:
