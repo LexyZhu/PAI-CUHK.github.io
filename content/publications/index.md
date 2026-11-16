@@ -38,19 +38,13 @@ sections:
             font-size: 0.9rem;
           }
 
-          #pai-publications .pai-pubs a.pai-paper-title {
+          #pai-publications .pai-pubs .pai-paper-title {
             color: #000;
             font-size: 0.9rem;
             font-weight: 700;
-            text-decoration: none;
           }
 
-          #pai-publications .pai-pubs a.pai-paper-title:hover,
-          #pai-publications .pai-pubs a.pai-paper-title:focus-visible {
-            text-decoration: underline;
-          }
-
-          #pai-publications .pai-paper-authors {
+          #pai-publications .pai-pubs .pai-paper-authors {
             font-weight: 400;
           }
         </style>
@@ -69,7 +63,9 @@ sections:
                 Bei Huang and Yun Kwok Wing
               </p>
               <p><em>npj Digital Medicine</em>, 2026.</p>
-              <p><a href="https://doi.org/10.1038/s41746-026-03001-w">Paper</a> | <a href="https://github.com/PAI-CUHK/RBDMDD">Code</a></p>
+              <p class="pai-paper-links">
+                <a href="PAPER_URL">Paper</a> | <a href="CODE_URL">Code</a>
+              </p>
             </li>
           </ol>
         </div>
