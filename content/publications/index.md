@@ -18,7 +18,7 @@ sections:
 
           #pai-publications .pai-pubs h1 {
             color: #000;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-weight: 700;
             margin: 0 0 20px;
           }
