@@ -104,7 +104,7 @@ sections:
           }
         </style>
 
-        <h2 class="pai-about-title">ABOUT US</h2>
+        <h2 class="pai-about-title">About Us</h2>
 
         <div class="pai-about-layout">
           <div class="pai-about-logo">
@@ -129,7 +129,7 @@ sections:
         color: '#ffffff'
         text_color_light: false
       spacing:
-        padding: ['80px', '20px', '20px', '20px']
+        padding: ['80px', '20px', '10px', '20px']
 
   - block: markdown
     id: pai-news
@@ -190,6 +190,6 @@ sections:
         color: '#ffffff'
         text_color_light: false
       spacing:
-        padding: ['20px', '20px', '80px', '20px']
+        padding: ['10px', '20px', '80px', '20px']
    
 ---
