@@ -141,9 +141,48 @@ sections:
             margin-bottom: 45px;
             text-align: left;
           }
+          #pai-news .pai-news-item + .pai-news-item {
+            border-top: 1px solid #e5e5e5;
+            margin-top: 20px;
+            padding-top: 20px;
+          }
+
+          #pai-news .pai-news-item h3 {
+            font-size: 1.15rem;
+            margin: 0 0 6px;
+          }
+
+          #pai-news .pai-news-item time {
+            display: block;
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 6px;
+          }
+
+          #pai-news .pai-news-item p {
+            margin: 0;
+          }
         </style>
 
         <h2 class="pai-news-title">PAI News</h2>
+
+        <article class="pai-news-item">
+          <h3>Two Projects Win First Prize for Excellent Paper</h3>
+          <time datetime="2026-04-16">April 16, 2026</time>
+          <p>Two of our research projects received the First Prize for Excellent Paper at the 15th Chest Pain Center Conference.</p>
+        </article>
+
+        <article class="pai-news-item">
+          <h3>Yu Huizi Receives Outstanding Award at GBA Graduate Research Forum</h3>
+          <time datetime="2025-11-01">November 1, 2025</time>
+          <p>Lab member Yu Huizi received the Outstanding Award for an academic oral presentation in science and engineering at the 2025 Greater Bay Area Graduate Research Forum.</p>
+        </article>
+
+        <article class="pai-news-item">
+          <h3>Lab Team Wins Best Paper Award for Research on Medical Diagnostic Reasoning</h3>
+          <time datetime="2025-01-01">January 1, 2025</time>
+          <p>Our paper, “Enhancing Medical Diagnostic Reasoning with Chain-of-Thought in Large Language Models,” received a Best Paper Award.</p>
+        </article>
 
         <!-- Add your lab updates here. -->
     design:
