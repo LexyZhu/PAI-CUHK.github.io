@@ -73,9 +73,20 @@ sections:
               <p class="pai-paper-authors">
                 Yujie Nie, Jianzhang Ni, Yonglong Ye, Yuan-Ting Zhang, Yun Kwok Wing, Yan He, Xiangqing Xu, Xin Ma and Lizhou Fan
               </p>
-              <p><em>npj Digital Medicine</em>, 2026.</p>
+              <p><em>IEEE Journal of Biomedical and Health Informatics</em>, 2026.</p>
               <p class="pai-paper-links">
                 <a href="https://doi.org/10.1109/JBHI.2026.3734632">Paper</a>
+              </p>
+            </li>
+            <li>
+              <strong class="pai-paper-title">Generative AI-powered simulated patients in medical and healthcare education: A scoping review and meta analysis</strong>
+              <p class="pai-paper-authors">
+                Huizi Yu, Wenkong Wang, Xinxin Lin, Jian Liu, Xingyu Mu, Lexuan Zhu, Yuchen Liu, Xixian Chen, Yuze Wei, Yitao Yan, Xinze Wang, Jun Zhao,
+                Shuo Wu, Yi Zhong, Jie Sun, Joey W. Y. Chan, Bryan Ping Yen Yan, Yun Kwok Wing, Kent CY So, Xin Ma, Lin Lu and Lizhou Fan
+              </p>
+              <p><em>Preprint</em>, 2026.</p>
+              <p class="pai-paper-links">
+                <a href="https://doi.org/10.21203/rs.3.rs-10473312/v1">Paper</a> | <a href="https://github.com/PAI-CUHK/GenAISP_Review">Code</a>
               </p>
             </li>
           </ol>
