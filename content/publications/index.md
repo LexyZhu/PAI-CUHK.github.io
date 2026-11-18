@@ -119,6 +119,16 @@ sections:
                 <a href="https://doi.org/10.64898/2026.04.21.26351365">Paper</a> | <a href="https://github.com/PAI-CUHK/Mental-Health-Agents-Survey">Code</a>
               </p>
             </li>
+            <li>
+              <strong class="pai-paper-title">DispatchMAS: fusing taxonomy and artificial intelligence agents for emergency medical services</strong>
+              <p class="pai-paper-authors">
+              Xiang Li, Huizi Yu, Wenkong Wang, Yiran Wu, Jiayan Zhou, Wenyue Hua, Xinxin Lin, Wenjia Tan, Lexuan Zhu, Bingyi Chen,               Guang Chen, Ming-Li Chen, Yang Zhou, Zhao Li, Themistocles L. Assimes, Yongfeng Zhang, Qingyun Wu, Xin Ma, Lingyao Li               and Lizhou Fan 
+              </p>
+              <p><em>medRxiv</em>, 2026.</p>
+              <p class="pai-paper-links">
+                <a href="https://doi.org/10.1186/s12873-026-01540-9">Paper</a>
+              </p>
+            </li>
           </ol>
         </div>
     design:
