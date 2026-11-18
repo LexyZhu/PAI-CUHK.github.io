@@ -89,6 +89,26 @@ sections:
                 <a href="https://doi.org/10.21203/rs.3.rs-10473312/v1">Paper</a> | <a href="https://github.com/PAI-CUHK/GenAISP_Review">Code</a>
               </p>
             </li>
+            <li>
+              <strong class="pai-paper-title">Generative AI-powered simulated patients in medical and healthcare education: A scoping review and meta analysis</strong>
+              <p class="pai-paper-authors">
+                Huizi Yu, Jian Liu, Wenkong Wang, Lingyao Li, Jiayan Zhou, Zhaoqian Xue, Xiang Li, Xinxin Lin, Zhiying Liang, Zhuoru Wu, Siyuan Ma, Xin Ma and Lizhou Fan
+              </p>
+              <p><em>Preprint</em>, 2026.</p>
+              <p class="pai-paper-links">
+                <a href="https://doi.org/10.48550/arXiv.2606.26205">Paper</a> 
+              </p>
+            </li>
+            <li>
+              <strong class="pai-paper-title">AIPatient Arena: EHR-grounded evaluation of large language models in end-to-end clinical consultation workflows</strong>
+              <p class="pai-paper-authors">
+                Jiahui Niu, Huizi Yu, Wenkong Wang, Guangxin Dai, Jingxian He, Xiang Li, Zhiying Liang, Xinxin Lin, Kent CY So, Bryan YP Yan, Yun Kwok Wing, Yanqiu Xing, Xin Ma, Lizhou Fan
+              </p>
+              <p><em>Preprint</em>, 2026.</p>
+              <p class="pai-paper-links">
+                <a href="https://doi.org/10.48550/arXiv.2606.17474">Paper</a> | <a href="https://github.com/PAI-CUHK/AIPatientArena">Code</a>
+              </p>
+            </li>
           </ol>
         </div>
     design:
