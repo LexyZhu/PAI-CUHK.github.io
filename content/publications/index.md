@@ -68,6 +68,16 @@ sections:
                 <a href="https://doi.org/10.1038/s41746-026-03001-w">Paper</a> | <a href="https://github.com/PAI-CUHK/RBDMDD">Code</a>
               </p>
             </li>
+            <li>
+              <strong class="pai-paper-title">Cross-Modal Enhanced Fusion of Eye-Tracking and Facial Features for Alzheimer's Disease Diagnosis</strong>
+              <p class="pai-paper-authors">
+                Yujie Nie, Jianzhang Ni, Yonglong Ye, Yuan-Ting Zhang, Yun Kwok Wing, Yan He, Xiangqing Xu, Xin Ma and Lizhou Fan
+              </p>
+              <p><em>npj Digital Medicine</em>, 2026.</p>
+              <p class="pai-paper-links">
+                <a href="https://doi.org/10.1109/JBHI.2026.3734632">Paper</a>
+              </p>
+            </li>
           </ol>
         </div>
     design:
