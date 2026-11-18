@@ -109,6 +109,16 @@ sections:
                 <a href="https://doi.org/10.48550/arXiv.2606.17474">Paper</a> | <a href="https://github.com/PAI-CUHK/AIPatientArena">Code</a>
               </p>
             </li>
+            <li>
+              <strong class="pai-paper-title">Artificial Intelligence Agents in Mental Health: A Systematic Review and Meta Analysis</strong>
+              <p class="pai-paper-authors">
+                Lexuan Zhu, Wenkong Wang, Zhiying Liang, Wenjia Tan, Bingyi Chen, Xinxin Lin, Zhengdong Wu, Huizi Yu, Xiang Li, Jiyuan Jiao, Sijia He, Guangxin Dai, Jiahui Niu, Yi Zhong, Yongbo Zheng, Jie Sun, Andi Han, Lingyao Li, Jiayan Zhou, Wenyue Hua, Ngan Yin Chan, Lin Lu, Yun Kwok Wing, Xin Ma, Lizhou Fan
+              </p>
+              <p><em>medRxiv</em>, 2026.</p>
+              <p class="pai-paper-links">
+                <a href="https://doi.org/10.64898/2026.04.21.26351365">Paper</a> | <a href="https://github.com/PAI-CUHK/Mental-Health-Agents-Survey">Code</a>
+              </p>
+            </li>
           </ol>
         </div>
     design:
