@@ -30,9 +30,14 @@ sections:
             padding-bottom: 0 !important;
           }
 
+          #alumni,
+          #alumni .home-section-bg {
+            background-color: #fff !important;
+          }
+
           #alumni {
-            background: #fff !important;
-            padding-top: 0 !important;
+            padding-top: 16px !important;
+            padding-bottom: 48px !important;
           }
 
           #alumni .pai-alumni {
@@ -42,9 +47,11 @@ sections:
           }
 
           #alumni .pai-alumni h2 {
-            font-size: 1.8rem;
+            color: #313131;
+            font-size: 1.5rem;
             font-weight: 400;
-            margin: 0 0 24px;
+            line-height: 1.25;
+            margin: 0 0 1.5rem;
           }
 
           #alumni .pai-alumni p {
