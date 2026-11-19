@@ -17,9 +17,12 @@ sections:
           }
 
           :is(#pai-publications, #pai-preprints) .pai-pubs h1 {
-            color: #000;
-            font-size: 1.2rem;
-            font-weight: 700;
+            color: #313131;
+            font-family: inherit;
+            font-size: 2.25rem;
+            font-weight: 400;
+            line-height: 1.25;
+            text-align: center;
             margin: 0 0 20px;
           }
 
