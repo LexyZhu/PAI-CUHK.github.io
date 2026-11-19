@@ -43,15 +43,16 @@ sections:
           #alumni .pai-alumni {
             max-width: 1120px;
             margin: 0 auto;
-            text-align: center;
+            text-align: left;
           }
-
+          
           #alumni .pai-alumni h2 {
             color: #313131;
             font-size: 1.5rem;
             font-weight: 400;
             line-height: 1.25;
             margin: 0 0 1.5rem;
+            text-align: center;
           }
 
           #alumni .pai-alumni p {
