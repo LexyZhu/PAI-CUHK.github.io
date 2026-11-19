@@ -168,10 +168,10 @@ sections:
             <li>
               <strong class="pai-paper-title">An evidence-guided reinforcement learning method to improve psychiatric reasoning in small language models</strong>
               <p class="pai-paper-authors">
-                Xinxin Lin, Guangxin Dai, Yi Zhong, Xiang Li, Xue Xiao, Jian Liu, Yixin Zhang, Lingming Hu, Zhengdong Wu, Yongbo Zheng, Runchuan Zhu, Ming Zhao, Huizi Yu, Yi Zhang, Fangting Lu, Shuo Wu, Jun Zhao, Ping Yin, Joey W. Y. Chan, Ngan Yin Chan, Yumei Wang, Lejin Yang, Yanqiu Xing, Sijing Chen, Yun Kwok Wing, Lin Lu, Xin Ma and Lizhou Fan
-
+                Xinxin Lin, Guangxin Dai, Yi Zhong, Xiang Li, Xue Xiao, Jian Liu, Yixin Zhang, Lingming Hu, Zhengdong Wu, Yongbo Zheng,
+                Runchuan Zhu, Ming Zhao, Huizi Yu, Yi Zhang, Fangting Lu, Shuo Wu, Jun Zhao, Ping Yin, Joey W. Y. Chan, Ngan Yin Chan, Yumei Wang,                  Lejin Yang, Yanqiu Xing, Sijing Chen, Yun Kwok Wing, Lin Lu, Xin Ma and Lizhou Fan
               </p>
-              <p><em>medRxiv</em>, 2026.</p>
+              <p><em>arXiv</em>, 2026.</p>
               <p class="pai-paper-links">
                 <a href="https://doi.org/10.48550/arXiv.2602.06449">Paper</a> |
                 <a href="https://github.com/PAI-CUHK/ClinMPO">Code</a>
