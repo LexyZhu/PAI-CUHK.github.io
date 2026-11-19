@@ -41,6 +41,14 @@ sections:
             color: #1769c2;
           }
     
+          #pai-publications {
+            padding-bottom: 8px !important;
+          }
+          
+          #pai-preprints {
+            padding-top: 16px !important;
+          }
+    
         </style>
       count: 0
       filters:
