@@ -10,7 +10,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publication
+          - papers
         publication_type: '2'
     design:
       view: citation
@@ -23,7 +23,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publication
+          - papers
         publication_type: '3'
     design:
       view: citation
