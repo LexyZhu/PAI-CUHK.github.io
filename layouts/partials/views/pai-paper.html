@@ -15,6 +15,12 @@
     <div class="pai-paper-authors">
       {{ delimit $paper.Params.authors ", " }}
     </div>
+  
+      {{ with $paper.Params.publication }}
+    <div class="pai-paper-venue">
+      <em>{{ . }}</em>, {{ $paper.Date.Format "2006" }}.
+    </div>
+  {{ end }}
 
     <div class="pai-paper-venue">
       <em>{{ $paper.Params.publication }}</em>, {{ $paper.Date.Format "2006" }}.
