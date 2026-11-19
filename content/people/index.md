@@ -71,5 +71,5 @@ sections:
         </div>
     design:
       spacing:
-        padding: ['0px', '20px', '48px', '20px']
+        padding: ['10px', '20px', '48px', '20px']
 ---
