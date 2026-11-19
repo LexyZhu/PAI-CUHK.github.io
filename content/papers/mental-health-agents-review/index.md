@@ -30,7 +30,6 @@ authors:
   - Lizhou Fan
 publication_types: ['3']
 publication: "medRxiv"
-doi: "10.64898/2026.04.21.26351365"
 links:
   - name: Paper
     url: https://doi.org/10.64898/2026.04.21.26351365
