@@ -26,7 +26,6 @@ authors:
   - Yun Kwok Wing
 publication_types: ['2']
 publication: "npj Digital Medicine"
-doi: "10.1038/s41746-026-03001-w"
 links:
   - name: Paper
     url: https://doi.org/10.1038/s41746-026-03001-w
