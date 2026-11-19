@@ -25,7 +25,6 @@ authors:
   - Lizhou Fan
 publication_types: ['2']
 publication: "BMC Emergency Medicine"
-doi: "10.1186/s12873-026-01540-9"
 links:
   - name: Paper
     url: https://doi.org/10.1186/s12873-026-01540-9
