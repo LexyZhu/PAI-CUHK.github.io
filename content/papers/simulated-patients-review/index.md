@@ -27,7 +27,6 @@ authors:
   - Lizhou Fan
 publication_types: ['3']
 publication: "Preprint"
-doi: "10.21203/rs.3.rs-10473312/v1"
 links:
   - name: Paper
     url: https://doi.org/10.21203/rs.3.rs-10473312/v1
