@@ -26,23 +26,8 @@ sections:
       title: ''
       text: |
         <style>
-          #section-people .people-widget {
-            justify-content: flex-start !important;
-            text-align: left;
-          }
-          
-          #section-people .section-heading,
-          #section-people .col-md-12,
-          #section-people .people-person,
-          #section-people .portrait-title {
-            text-align: left !important;
-          }
-          
-          /* Align each avatar with its name and role */
-          #section-people .people-person .avatar {
-            margin-left: 0 !important;
-            margin-right: auto !important;
-          }
+          #section-people {
+            padding-bottom: 0 !important;
 
           #alumni {
             background: #fff !important;
