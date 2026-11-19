@@ -7,6 +7,13 @@ sections:
     id: pai-publications
     content:
       title: Publications
+      text: |
+        <style>
+          :is(#pai-publications, #pai-preprints) .li-cite-author,
+          :is(#pai-publications, #pai-preprints) .li-cite-author * {
+            font-weight: 400 !important;
+          }
+        </style>
       count: 0
       filters:
         folders:
