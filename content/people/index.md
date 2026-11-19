@@ -28,6 +28,7 @@ sections:
         <style>
           #section-people {
             padding-bottom: 0 !important;
+          }
 
           #alumni {
             background: #fff !important;
