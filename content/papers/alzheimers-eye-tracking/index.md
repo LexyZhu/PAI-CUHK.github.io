@@ -14,7 +14,6 @@ authors:
   - Lizhou Fan
 publication_types: ['2']
 publication: "IEEE Journal of Biomedical and Health Informatics"
-doi: "10.1109/JBHI.2026.3734632"
 links:
   - name: Paper
     url: https://doi.org/10.1109/JBHI.2026.3734632
