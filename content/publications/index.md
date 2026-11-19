@@ -42,7 +42,7 @@ sections:
           }
     
           #pai-publications {
-            padding-bottom: 8px !important;
+            padding-bottom: 0px !important;
           }
           
           #pai-preprints {
