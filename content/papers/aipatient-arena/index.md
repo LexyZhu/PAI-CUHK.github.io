@@ -19,7 +19,6 @@ authors:
   - Lizhou Fan
 publication_types: ['3']
 publication: "arXiv"
-doi: "10.48550/arXiv.2606.17474"
 links:
   - name: Paper
     url: https://doi.org/10.48550/arXiv.2606.17474
