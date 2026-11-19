@@ -22,10 +22,6 @@
     </div>
   {{ end }}
 
-    <div class="pai-paper-venue">
-      <em>{{ $paper.Params.publication }}</em>, {{ $paper.Date.Format "2006" }}.
-    </div>
-
     {{ with $paper.Params.links }}
       <div class="pai-paper-links">
         {{ range $index, $link := . }}
