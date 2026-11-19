@@ -26,12 +26,17 @@ sections:
       title: ''
       text: |
         <style>
+          #section-people {
+            padding-bottom: 0 !important;
+          }
+
           #alumni {
             background: #fff !important;
+            padding-top: 0 !important;
           }
 
           #alumni .pai-alumni {
-            max-width: 900px;
+            max-width: 1120px;
             margin: 0 auto;
             text-align: center;
           }
@@ -39,56 +44,24 @@ sections:
           #alumni .pai-alumni h2 {
             font-size: 1.8rem;
             font-weight: 400;
-            margin: 0 0 36px;
+            margin: 0 0 24px;
           }
 
-          #alumni .pai-alumni-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 36px 48px;
-          }
-
-          #alumni .pai-alumni-name {
-            font-size: 1.2rem;
-            margin: 0 0 8px;
-          }
-
-          #alumni .pai-alumni-detail {
-            color: #777;
-            font-size: 0.9rem;
-            line-height: 1.5;
-            margin: 0;
-          }
-
-          @media (max-width: 640px) {
-            #alumni .pai-alumni-grid {
-              grid-template-columns: 1fr;
-            }
+          #alumni .pai-alumni p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0 0 10px;
           }
         </style>
 
         <div class="pai-alumni">
           <h2>Alumni</h2>
-          <div class="pai-alumni-grid">
-            <div>
-              <p class="pai-alumni-name">Jieyi Wang</p>
-              <p class="pai-alumni-detail">Research Assistant, 2025–2026<br>Now a PhD student at the National University of Singapore</p>
-            </div>
-            <div>
-              <p class="pai-alumni-name">Wenjia Tan</p>
-              <p class="pai-alumni-detail">Intern, 2025–2026<br>Now a PhD student at the University of Edinburgh</p>
-            </div>
-            <div>
-              <p class="pai-alumni-name">Xinxin Lin</p>
-              <p class="pai-alumni-detail">Intern, 2025–2026<br>Now a PhD student at the Chinese University of Hong Kong</p>
-            </div>
-            <div>
-              <p class="pai-alumni-name">Lexuan Zhu</p>
-              <p class="pai-alumni-detail">Intern, 2025–2026<br>Now a PhD student at the Chinese University of Hong Kong</p>
-            </div>
-          </div>
+          <p><strong>Jieyi Wang</strong> — Research Assistant (2025–2026); now a PhD student at the National University of Singapore.</p>
+          <p><strong>Wenjia Tan</strong> — Intern (2025–2026); now a PhD student at the University of Edinburgh.</p>
+          <p><strong>Xinxin Lin</strong> — Intern (2025–2026); now a PhD student at the Chinese University of Hong Kong.</p>
+          <p><strong>Lexuan Zhu</strong> — Intern (2025–2026); now a PhD student at the Chinese University of Hong Kong.</p>
         </div>
     design:
       spacing:
-        padding: ['24px', '20px', '64px', '20px']
+        padding: ['0px', '20px', '48px', '20px']
 ---
