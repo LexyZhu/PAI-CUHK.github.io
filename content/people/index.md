@@ -43,7 +43,7 @@ sections:
           #alumni .pai-alumni {
             max-width: 1120px;
             margin: 0 auto;
-            text-align: left;
+            text-align: center;
           }
 
           #alumni .pai-alumni h2 {
